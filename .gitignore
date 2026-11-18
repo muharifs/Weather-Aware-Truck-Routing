@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Env
+.env
+!.env.example
+
+# Django
+db.sqlite3
+
+# OS / IDE
+.DS_Store
+Thumbs.db
