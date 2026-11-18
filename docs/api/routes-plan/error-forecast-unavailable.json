@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "FORECAST_UNAVAILABLE",
+    "message": "ETA di luar jangkauan prakiraan",
+    "details": {}
+  }
+}

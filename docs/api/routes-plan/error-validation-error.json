@@ -1,0 +1,11 @@
+{
+  "error": {
+    "code": "VALIDATION_ERROR",
+    "message": "Input tidak valid",
+    "details": {
+      "load_weight_lb": [
+        "Harus antara 1 dan 80000."
+      ]
+    }
+  }
+}

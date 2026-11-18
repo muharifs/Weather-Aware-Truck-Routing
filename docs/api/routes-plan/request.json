@@ -1,0 +1,7 @@
+{
+  "origin": "Dallas, TX",
+  "destination": "Denver, CO",
+  "departure_time": "2026-11-20T08:00:00-06:00",
+  "load_weight_lb": 42000,
+  "checkpoint_interval_mi": 25
+}

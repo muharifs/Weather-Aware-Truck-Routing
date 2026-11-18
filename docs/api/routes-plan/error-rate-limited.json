@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "RATE_LIMITED",
+    "message": "Kuota API eksternal habis",
+    "details": {}
+  }
+}
