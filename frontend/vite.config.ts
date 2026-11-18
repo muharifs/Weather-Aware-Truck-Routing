@@ -6,6 +6,10 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  optimizeDeps: {
+    // maplibre-gl uses a web worker that breaks when pre-bundled by the dev server
+    exclude: ['maplibre-gl'],
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

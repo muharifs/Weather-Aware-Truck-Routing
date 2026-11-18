@@ -1,13 +1,13 @@
 # Weather-Aware Truck Routing
 
-Frontend React (Vite) + backend Django REST Framework + MySQL.
+React (Vite) frontend + Django REST Framework backend + MySQL.
 
 ```
 backend/    # Django + DRF
 frontend/   # React + Vite + Tailwind + shadcn/ui
 ```
 
-## Prasyarat
+## Prerequisites
 Python 3.11+, Node.js 20+, MySQL 8.
 
 ## Backend
@@ -16,24 +16,24 @@ cd backend
 python -m venv venv
 venv\Scripts\activate            # Windows (Linux/Mac: source venv/bin/activate)
 pip install -r requirements.txt
-cp .env.example .env             # lalu isi DB_USER / DB_PASSWORD
+cp .env.example .env             # then fill in DB_USER / DB_PASSWORD
 ```
-Buat database (nama sesuai `DB_NAME`):
+Create the database (the name must match `DB_NAME`):
 ```sql
 CREATE DATABASE weather_truck_routing CHARACTER SET utf8mb4;
 ```
-Jalankan:
+Run:
 ```bash
 python manage.py migrate
 python manage.py runserver       # http://localhost:8000/api/health/
-pytest                           # menjalankan test
+pytest                           # run the tests
 ```
 
 ## Frontend
 ```bash
 cd frontend
 npm install
-cp .env.example .env             # VITE_API_BASE_URL menunjuk ke backend
+cp .env.example .env             # VITE_API_BASE_URL points to the backend
 npm run dev                      # http://localhost:5173
 ```
-Halaman awal menampilkan peta dan status backend dari `GET /api/health/`.
+The landing page shows a map and the backend status from `GET /api/health/`.
