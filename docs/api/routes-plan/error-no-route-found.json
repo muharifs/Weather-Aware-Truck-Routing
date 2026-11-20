@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "NO_ROUTE_FOUND",
+    "message": "Tidak ada rute darat",
+    "details": {}
+  }
+}

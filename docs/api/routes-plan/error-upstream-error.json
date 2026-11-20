@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "UPSTREAM_ERROR",
+    "message": "API routing atau cuaca gagal",
+    "details": {}
+  }
+}

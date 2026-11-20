@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "LOCATION_NOT_FOUND",
+    "message": "Alamat tidak ditemukan",
+    "details": {}
+  }
+}
